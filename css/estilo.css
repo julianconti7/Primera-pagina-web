@@ -44,6 +44,9 @@ footer .footer h3 {
     background-color: #b1b1ac; }
   .card:hover {
     border: 1px solid #f308d4; }
+  .card .btn {
+    background: #5c5b5b;
+    border: black; }
 
 .formularioMicuenta {
   box-shadow: 0 0 20px 0 #353434;
