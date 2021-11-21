@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
 <body>
-  <div class="content">
+  <div>
     
       <header>
           <div class="header">
@@ -52,8 +52,7 @@
                 </nav>
          </div>
   </header>
-  <main>
-      
+  <main class="formulario">
       <section>
           <br>
           <h1>Bienvenido al apartado de Contacto de Seven</h1>
@@ -65,7 +64,10 @@
                   <div>
                       <label for="nombre">Nombre</label>
                       <input type="text"name=nombre>
-                      <label for="apellido">Apellido</label>
+                  </div>
+                  <br>
+                  <div>
+                    <label for="apellido">Apellido</label>
                       <input type="text" name="apellido">
                   </div>
                   <br>
@@ -73,22 +75,10 @@
                       <label for="email">Email*</label>
                       <input type="email" name="email" required>
                   </div>
-                  <br>
-                  <div class="tipoDeProblema">
-                      <p>Selecciona de que tipo es tu pregunta</p>
-                      <label for="Problema"></label>
-                      <input type="radio" name="Problema"
-                      value="Envio"> Con el envio
-                      <label for="Problema"></label>
-                      <input type="radio" name="Problema"
-                      value="Producto"> Con tu producto
-                      <label for="Problema"></label>
-                      <input type="radio" name="Problema"
-                      value="Otro"> Otro
-                  </div>  
+                  <br> 
                   <div>
                       <label for="comentario" name="comentario">Deja tu duda</label>
-                      <textarea name="comentario" id="" cols="100" rows="3"></textarea>
+                      <textarea name="comentario" id="" rows="2"></textarea>
                   </div>
                   <br>
                   <div>
@@ -96,14 +86,7 @@
                       <input type="reset" value="Borrar Formulario">
                   </div>
                   <br>
-      
-      
               </fieldset>
-      
-      
-      
-      
-      
           </form>
       </section>
   </main>

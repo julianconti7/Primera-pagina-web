@@ -44,3 +44,18 @@ footer .footer h3 {
     background-color: #b1b1ac; }
   .card:hover {
     border: 1px solid #f308d4; }
+
+.formulario {
+  box-shadow: 0 0 20px 0 #353434;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+  background-color: #c7c4c4; }
+  .formulario textarea,
+  .formulario input {
+    padding: .7em;
+    width: 100%;
+    border: none;
+    background: none;
+    border-bottom-color: salmon; }

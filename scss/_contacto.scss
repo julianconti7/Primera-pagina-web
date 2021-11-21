@@ -1,5 +1,17 @@
-.content{
-    .formulario{
-        box-shadow: 0 0 20px 0 rgba($color: #d11313, $alpha: 1.0);
+.formulario{
+    box-shadow: 0 0 20px 0 rgba($color: #353434, $alpha: 1.0);
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 1.5em;
+    background-color: rgb(199, 196, 196);
+    textarea,
+    input{
+        padding: .7em;
+        width: 100%;
+        border: none;
+        background: none;
+        border-bottom: 1px solid rgb(rgb(243, 26, 189));
     }
+        
 }
