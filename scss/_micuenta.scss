@@ -1,0 +1,27 @@
+.formularioMicuenta{
+    box-shadow: 0 0 20px 0 rgba($color: #353434, $alpha: 1.0);
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 1.5em;
+    background-color: rgb(207, 203, 203);
+    display: grid;
+    grid-template-columns: 1fr;
+    input,
+    button{
+        padding: .7em;
+        width: 100%;
+        border: none;
+        background: none;
+        outline: none;
+        border-bottom: 1px solid #d829c9;
+    }
+    button{
+        background: #a3a3a3;
+        border: none;
+        text-transform: uppercase;
+    }
+    select{
+        background-color: rgb(223, 226, 226);
+    }
+}

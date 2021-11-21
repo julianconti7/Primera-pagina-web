@@ -45,6 +45,30 @@ footer .footer h3 {
   .card:hover {
     border: 1px solid #f308d4; }
 
+.formularioMicuenta {
+  box-shadow: 0 0 20px 0 #353434;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+  background-color: #cfcbcb;
+  display: grid;
+  grid-template-columns: 1fr; }
+  .formularioMicuenta input,
+  .formularioMicuenta button {
+    padding: .7em;
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid #d829c9; }
+  .formularioMicuenta button {
+    background: #a3a3a3;
+    border: none;
+    text-transform: uppercase; }
+  .formularioMicuenta select {
+    background-color: #dfe2e2; }
+
 .formulario {
   box-shadow: 0 0 20px 0 #353434;
   max-width: 1170px;
