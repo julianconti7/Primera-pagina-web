@@ -52,12 +52,13 @@
                 </nav>
          </div>
   </header>
-  <main class="formulario">
+  <main>
       <section>
           <br>
           <h1>Bienvenido al apartado de Contacto de Seven</h1>
+          <br>
       </section>
-      <section>
+      <section class="formulario">
           <form action="">
               <fieldset>
                   <legend>Envianos tu consulta</legend>
@@ -75,15 +76,16 @@
                       <label for="email">Email*</label>
                       <input type="email" name="email" required>
                   </div>
-                  <br> 
-                  <div>
+                  <br>
+                  <div class="block">
                       <label for="comentario" name="comentario">Deja tu duda</label>
                       <textarea name="comentario" id="" rows="2"></textarea>
                   </div>
                   <br>
-                  <div>
-                      <input type="submit" value="Enviar mensaje">
-                      <input type="reset" value="Borrar Formulario">
+                  <div class="block">
+                      <button type="submit">
+                        Enviar
+                      </button>
                   </div>
                   <br>
               </fieldset>
