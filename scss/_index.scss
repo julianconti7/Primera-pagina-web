@@ -3,7 +3,6 @@
 
 
 
-
 footer{
     .footer{
         background-color:rgb(143, 143, 143) ;
@@ -15,4 +14,31 @@ footer{
    .footer h3{
        text-align: right;
    }
+   .social-networks a {
+    display: inline-flex;
+    color: #ffffff;
+    height: 48px;
+    width: 48px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 0 6px;
+    transition: transform 0.4s;
+    
+}
+
+.social-networks a:hover {
+    transform: scale(1.3);
+}
+.social-networks a.twitter {
+    background-color: #4d5050;
+}
+.social-networks a.youtube {
+    background-color: #4d5050;
+}
+.social-networks a.instagram {
+    background-color: #4d5050;
+}
+
 }

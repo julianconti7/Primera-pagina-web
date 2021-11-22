@@ -37,6 +37,30 @@ footer .footer p {
 footer .footer h3 {
   text-align: right; }
 
+footer .social-networks a {
+  display: inline-flex;
+  color: #ffffff;
+  height: 48px;
+  width: 48px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 0 6px;
+  transition: transform 0.4s; }
+
+footer .social-networks a:hover {
+  transform: scale(1.3); }
+
+footer .social-networks a.twitter {
+  background-color: #4d5050; }
+
+footer .social-networks a.youtube {
+  background-color: #4d5050; }
+
+footer .social-networks a.instagram {
+  background-color: #4d5050; }
+
 .card {
   border: 1px solid #000; }
   .card-img-top {
