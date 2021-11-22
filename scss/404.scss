@@ -1,0 +1,17 @@
+.body404{
+    background: rgb(35, 129, 192);
+    align-items: flex-end;
+    overflow: hidden;
+    .pag404{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .img404{
+            width: 100%;
+        }
+    }
+    
+}
+

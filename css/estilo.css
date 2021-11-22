@@ -95,3 +95,16 @@ footer .footer h3 {
     background: #a3a3a3;
     border: none;
     text-transform: uppercase; }
+
+.body404 {
+  background: #2381c0;
+  align-items: flex-end;
+  overflow: hidden; }
+  .body404 .pag404 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .body404 .pag404 .img404 {
+      width: 100%; }
