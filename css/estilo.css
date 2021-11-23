@@ -23,7 +23,7 @@ body {
     body .header .navbar a {
       color: white; }
     body .header .navbar-toggler-icon {
-      background-color: #242323; }
+      background-color: #c0bbbb; }
 
 @media screen and (max-width: 768px) {
   .imgprincipal {
