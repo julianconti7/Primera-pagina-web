@@ -26,8 +26,8 @@ body {
       background-color: #242323; }
 
 @media screen and (max-width: 768px) {
-  body {
-    width: 100%; } }
+  .imgprincipal {
+    width: 200px; } }
 
 footer .footer {
   background-color: #8f8f8f; }
